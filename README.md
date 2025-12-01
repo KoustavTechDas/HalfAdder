@@ -24,7 +24,7 @@ The project is organized as follows:
     - **`halfAdder.v`**: The Verilog module file where the halfAdder is implemented using the **dataflow model**.
     
 - `sim/`: Contains all simulation-related files.
-    - `testbench/`: Contains the Verilog testbench code to simulate and verify the gate modules.
+    - `testbench/`: Contains the Verilog testbench code to simulate and verify the halfadder modules.
     - **`halAdder_tb.v`**: The testbench file that applies test vectors to the gates in `halfAdder.v` and verifies their functionality.
     - `result/images/`: Contains the images for the simulation results:
         - **waveform.png**: A screenshot of the waveform generated during the simulation.
@@ -49,10 +49,10 @@ The testbenches are written in the `sim/testbench` directory and are responsible
 ### Simulation Results
 
 Simulation results are stored in the `sim/result/images/` directory and include:
-- **Waveform**: The waveform generated during the simulation that shows the signal transitions for each gate's output.
+- **Waveform**: The waveform generated during the simulation that shows the signal transitions halfadder output.
   ![Waveform](sim/result/images/waveform.png)
 - **Schematic**: A general schematic representation of the gate-level design.
-  ![Schematic](sim/result/images/Schematic.png)
+  ![Schematic](sim/result/images/schematic.png)
 - **Gate-level Schematic**: A more detailed gate-level schematic showing the logic gates in their implemented form.
   ![Gate-level Schematic](sim/result/images/gatelevelschematic.png)
 
@@ -61,11 +61,11 @@ Simulation results are stored in the `sim/result/images/` directory and include:
 Here’s a brief overview of the files in the repository:
 
 ### `src/rtl/`
-- **`halfAdder.v`**: Verilog module that contains the implementation of all basic gates using the dataflow model.
+- **`halfAdder.v`**: Verilog module that contains the implementation of halfadder using the dataflow model.
 
 ### `sim/`
-- **`testbench/`**: Contains the testbench files for simulating the basic gates. For example:
-    - **`halfAdder_tb.v`**: Testbench to simulate the gates in `allgates.v`.
+- **`testbench/`**: Contains the testbench files for simulating the halfadder. For example:
+    - **`halfAdder_tb.v`**: Testbench to simulate the gates in `halfAdder.v`.
     
 - **`result/images/`**: Contains the images of the simulation results:
     - **`waveform.png`**: A screenshot of the waveform of the simulation.
