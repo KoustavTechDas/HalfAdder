@@ -71,8 +71,9 @@ Here’s a brief overview of the files in the repository:
     - **`waveform.png`**: A screenshot of the waveform of the simulation.
     - **`schematic.png`**: The schematic diagram of the design.
     - **`gatelevelschematic.png`**: The gate-level schematic of the design.
-### `theory`
+### `Theory`
 - **`halfAdder.jpg`**: Is a image where the truth table Kmap boolean equationan and the circuit is shown for reference.
+- ![Theory](theory/halfAdder.jpg)
 
 ## How to Use
 
