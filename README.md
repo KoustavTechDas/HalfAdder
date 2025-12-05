@@ -79,7 +79,7 @@ Here’s a brief overview of the files in the repository:
 
 ### Requirements
 
-To run the simulation, you will need **QuestaSim** (or **ModelSim**, which is the same simulator suite):
+To run the simulation, you will need **QuestaSim** (or **ModelSim**, which is the same simulator suite):.
 - [QuestaSim](https://www.mentor.com/products/fpga/questasim) or [ModelSim](https://www.mentor.com/products/fpga/modelsim)
 
 
